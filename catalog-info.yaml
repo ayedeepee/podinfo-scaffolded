@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "podinfo-scaffolded"
+  annotations:
+    "humanitec.com/orgId": "mdmdpersonal"
+    "humanitec.com/appId": "podinfo-scaffolded"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
