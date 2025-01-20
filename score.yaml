@@ -15,6 +15,14 @@ containers:
     variables:
       PODINFO_UI_COLOR: "#34577c"
       PODINFO_UI_MESSAGE: ""
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "1000m"
+      requests:
+        memory: "256Mi"
+        cpu: "1m"
+      
 
 resources:
   dns: # We need a DNS record to point to the service 
